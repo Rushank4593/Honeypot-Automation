@@ -77,7 +77,7 @@ pip install -r requirements.txt
 cp etc/cowrie.cfg.dist etc/cowrie.cfg
 ```
 
-![image](assets-.gitkeep/00eba0be-de37-4b88-ada0-906720ccf369.png)
+![](https://github.com/Rushank4593/assets-.gitkeep/blob/084226b666e4ca0d6512394a2c6f2e1ae8a1ab1e/Screenshot_2025-11-17_at_11.35.45_AM.png)
 
 check status:
 
@@ -85,11 +85,11 @@ check status:
 ./bin/cowrie status
 ```
 
-![Screenshot 2025-11-17 at 11.32.04 AM.png](Honeypot%20Automation/00eba0be-de37-4b88-ada0-906720ccf369.png)
+![image alt](https://github.com/Rushank4593/assets-.gitkeep/blob/084226b666e4ca0d6512394a2c6f2e1ae8a1ab1e/00eba0be-de37-4b88-ada0-906720ccf369.png)
 
 **Configuration Changes in `cowrie.cfg` & Creating userdb.txt password file:**
 
-![Screenshot 2025-11-17 at 11.18.32 AM.png](Honeypot%20Automation/Screenshot_2025-11-17_at_11.18.32_AM.png)
+![image alt](https://github.com/Rushank4593/assets-.gitkeep/blob/084226b666e4ca0d6512394a2c6f2e1ae8a1ab1e/Screenshot_2025-11-17_at_11.18.32_AM.png)
 
 - Open up port and Redirect all the request of port 2222 to the cowrie server.
 
@@ -103,7 +103,7 @@ userdb_file = /home/krishna/cowrie/etc/userdb.txt
 
 the above configurations file (cowrie.cfg) also says that, user will only enter into the cowrie server when his/her credentials matches with the credentials that are there in database(userdb.txt).
 
-![Screenshot 2025-11-17 at 11.28.13 AM.png](Honeypot%20Automation/Screenshot_2025-11-17_at_11.28.13_AM.png)
+![image alt](https://github.com/Rushank4593/assets-.gitkeep/blob/084226b666e4ca0d6512394a2c6f2e1ae8a1ab1e/Screenshot_2025-11-17_at_11.28.13_AM.png)
 
 - userdb.txt is file that has various vulnerable passwords, which has potential to let any user enter into the server very easily.
 
@@ -141,16 +141,16 @@ Cowrie now listens on **port 2222** for SSH…
     - Source IP
     - Command history
 
-![Screenshot 2025-05-25 at 12.44.59 PM.png](Honeypot%20Automation/Screenshot_2025-05-25_at_12.44.59_PM.png)
+![image alt](https://github.com/Rushank4593/assets-.gitkeep/blob/084226b666e4ca0d6512394a2c6f2e1ae8a1ab1e/Screenshot_2025-05-25_at_12.44.59_PM.png)
 
 - Informatin Gathering
     
-    ![image.png](Honeypot%20Automation/image.png)
+    ![image alt](https://github.com/Rushank4593/assets-.gitkeep/blob/084226b666e4ca0d6512394a2c6f2e1ae8a1ab1e/image.png)
     
 
 Exploitation : SSH login attempt
 
-![Screenshot 2025-05-25 at 12.43.42 PM.png](Honeypot%20Automation/Screenshot_2025-05-25_at_12.43.42_PM.png)
+![image alt](https://github.com/Rushank4593/assets-.gitkeep/blob/084226b666e4ca0d6512394a2c6f2e1ae8a1ab1e/Screenshot_2025-05-25_at_12.43.42_PM.png)
 
 ---
 
@@ -165,7 +165,7 @@ Exploitation : SSH login attempt
         - Common usernames
         - Frequent commands
     
-    ![Screenshot 2025-11-17 at 11.48.01 AM.png](Honeypot%20Automation/Screenshot_2025-11-17_at_11.48.01_AM.png)
+    ![image alt](https://github.com/Rushank4593/assets-.gitkeep/blob/084226b666e4ca0d6512394a2c6f2e1ae8a1ab1e/Screenshot_2025-11-17_at_11.48.01_AM.png)
     
 
 ---
@@ -199,9 +199,9 @@ Visualizations included:
 - Bar charts for IPs, usernames
 - Commands Used
 
-![image.png](Honeypot%20Automation/image%201.png)
+![image alt](https://github.com/Rushank4593/assets-.gitkeep/blob/084226b666e4ca0d6512394a2c6f2e1ae8a1ab1e/image%201.png)
 
-![image.png](Honeypot%20Automation/image%202.png)
+![image alt](https://github.com/Rushank4593/assets-.gitkeep/blob/084226b666e4ca0d6512394a2c6f2e1ae8a1ab1e/image%202.png)
 
 ---
 
