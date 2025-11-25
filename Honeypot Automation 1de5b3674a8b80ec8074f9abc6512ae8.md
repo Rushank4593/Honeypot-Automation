@@ -77,7 +77,7 @@ pip install -r requirements.txt
 cp etc/cowrie.cfg.dist etc/cowrie.cfg
 ```
 
-![Screenshot 2025-11-17 at 11.35.45 AM.png](Honeypot%20Automation/Screenshot_2025-11-17_at_11.35.45_AM.png)
+![image](assets-.gitkeep/00eba0be-de37-4b88-ada0-906720ccf369.png)
 
 check status:
 
