@@ -112,8 +112,6 @@ This component demonstrates how deception-generated data can be integrated into 
 - The honeypot was isolated from production systems  
 - All collected data is used strictly for **academic research purposes**  
 
-📄 See `ETHICS.md` for additional details.
-
 ---
 
 ## 🚀 Future Research Directions
