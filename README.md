@@ -5,7 +5,7 @@
 
 ---
 
-## 🌐 Research Motivation
+## Research Motivation
 
 Internet-facing services such as **SSH** are persistently targeted by both automated and human-driven attackers. While honeypots are widely deployed to collect attack data, comparatively less attention has been paid to **how attacker behavior can be abstracted from low-level interaction logs in a controlled, reproducible, and analyzable manner**.
 
@@ -13,7 +13,7 @@ This project investigates how **deception-based SSH telemetry**, collected via h
 
 ---
 
-## 🔍 Research Questions
+## Research Questions
 
 This work is guided by the following research questions:
 
@@ -28,7 +28,7 @@ This work is guided by the following research questions:
 
 ---
 
-## 🛡️ Threat Model
+## Threat Model
 
 | Component | Description |
 |---------|-------------|
@@ -39,7 +39,7 @@ This work is guided by the following research questions:
 
 ---
 
-## ⚙️ Experimental Setup
+## Experimental Setup
 
 - **Honeypot:** Cowrie (low-interaction SSH honeypot)
 - **Environment:** Kali Linux Virtual Machine
@@ -52,7 +52,7 @@ All experiments were conducted within an **isolated virtual lab** to ensure both
 
 ---
 
-## 📊 Data Collection
+## Data Collection
 
 Cowrie generates structured JSON logs capturing rich attacker telemetry, including:
 
@@ -68,7 +68,7 @@ Data was collected continuously during both **simulated** and **opportunistic** 
 
 ---
 
-## 🧠 Analysis Methodology
+## Analysis Methodology
 
 A Python-based analysis pipeline was developed to enable systematic and repeatable analysis:
 
@@ -84,7 +84,7 @@ This methodology supports **empirical analysis of attacker interaction patterns*
 
 ---
 
-## 📈 Visualization & Observability
+## Visualization & Observability
 
 An interactive **Streamlit dashboard** provides:
 
@@ -96,7 +96,7 @@ This component demonstrates how deception-generated data can be integrated into 
 
 ---
 
-## ⚠️ Limitations
+## Limitations
 
 - Cowrie is a **low-interaction honeypot** and does not fully emulate real production systems  
 - Attacker behavior may change upon detecting deception  
@@ -105,7 +105,7 @@ This component demonstrates how deception-generated data can be integrated into 
 
 ---
 
-## ⚖️ Ethical Considerations
+## Ethical Considerations
 
 - No real user data was collected  
 - No outbound attacks were launched  
@@ -114,7 +114,7 @@ This component demonstrates how deception-generated data can be integrated into 
 
 ---
 
-## 🚀 Future Research Directions
+## Future Research Directions
 
 - Behavioral clustering of attacker sessions  
 - Integration with **provenance-based system observability**  
@@ -123,12 +123,10 @@ This component demonstrates how deception-generated data can be integrated into 
 
 ---
 
-## 🔁 Reproducibility
+## Reproducibility
 
 All scripts, configurations, and setup instructions required to reproduce the experimental environment and analysis pipeline are included in this repository.
 
 ---
-
-### ✨ Final Note
 
 This project is designed as a **research artifact**, not merely a deployment tutorial. It serves as a foundation for empirical research into attacker behavior, deception systems, and system-level security observability.
